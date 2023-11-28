@@ -1,0 +1,31 @@
+class Movie {
+    private title: string;
+    private studio: string;
+    private rating: string;
+
+    constructor(title: string, studio: string, rating: string = "PG") {
+        this.title = title;
+        this.studio = studio;
+        this.rating = rating;
+    }
+
+    getTitle(): string {
+        return this.title;
+    }
+
+    getStudio(): string {
+        return this.studio;
+    }
+
+    getRating(): string {
+        return this.rating;
+    }
+
+    // Method to display movie details
+    displayDetails(): void {
+        console.log(`Title: ${this.title}, Studio: ${this.studio}, Rating: ${this.rating}`);
+    }
+}
+
+const casinoRoyale: Movie = new Movie("Casino Royale", "Eon Productions", "PG-13");
+casinoRoyale.displayDetails();

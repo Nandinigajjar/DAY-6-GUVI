@@ -1,0 +1,30 @@
+class Person {
+    private name: Nandini Gajjar;
+    private age: 24;
+    private address: A,God society;
+
+    constructor(name:Nandini Gajjar, age:24, address:A,God society ) {
+        this.name = Nandini Gajjar;
+        this.age = 24;
+        this.address = A,God society;
+    }
+
+    getName(): Nandini Gajjar {
+        return this.name;
+    }
+
+    getAge(): 24 {
+        return this.age;
+    }
+
+    getAddress():A,God society; {
+        return this.address;
+    }
+
+    displayDetails(): void {
+        console.log(`Name: ${this.name}, Age: ${this.age}, Address: ${this.address}`);
+    }
+}
+
+const Nandini Gajjar: Person = new Person("Nandini Gajjar", 24 , "A,God society");
+Nandini Gajjar.displayDetails();
